@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("fotos/wintery-sunburst.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100rem;
+    margin: 0;
+    padding: 0;
+}
+
+#Titulo1 {
+    color: rgb(90, 18, 184);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    color: #900606;
+    margin-top: 10px;
+}
+
+/* Estilo del contenedor de la imagen y el nombre de usuario */
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilo del nombre de usuario */
+.user-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo de la lista de enlaces */
+
+.red{
+  text-align: center; 
+  font-weight: bold;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1;
+    padding: 1;
+}
+/* Estilo de cada elemento de la lista */
+li {
+    margin: 10px;
+    border-color: #3b5998;
+}
+
+/* Estilo de los enlaces */
+a {
+    text-decoration: none;
+    color: #9d0c0c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Estilo del enlace de email */
+a[href^="mailto"] {
+    background-color: #ff0000;
+}
+
+/* Estilo del enlace de Facebook */
+a[href^=" jackelinesalazar0309"] {
+    background-color: #3b5998;
+    a[href^=" https://www.facebook.com/jackiechan292"] {
+        background-color: #3b5998;  
+        text-align: center;
+    color: #333333;
+    margin-top: 20px;
+}
+/* Estilo del enlace de Twitter */
+a[href^="https://twitter.com"] {
+    background-color: #1da1f2;
+}
+
+/* Estilo del título de la sección Acerca de */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo del párrafo de la sección Acerca de */
+p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #333;
+}
