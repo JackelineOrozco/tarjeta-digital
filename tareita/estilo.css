@@ -75,23 +75,7 @@ a {
 }
 
 /* Estilo del enlace de email */
-a[href^="mailto"] {
-    background-color: #ff0000;
-}
-
-/* Estilo del enlace de Facebook */
-a[href^=" jackelinesalazar0309"] {
-    background-color: #3b5998;
-    a[href^=" https://www.facebook.com/jackiechan292"] {
-        background-color: #3b5998;  
-        text-align: center;
-    color: #333333;
-    margin-top: 20px;
-}
 /* Estilo del enlace de Twitter */
-a[href^="https://twitter.com"] {
-    background-color: #1da1f2;
-}
 
 /* Estilo del título de la sección Acerca de */
 h2 {
